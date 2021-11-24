@@ -74,6 +74,7 @@ h1, h2, h3, h4, h5, h6, p, button, a {
     display: block;
     margin: 25px auto 0;
     max-width: 100%;
+    border-radius: 15px;
     height: auto;
 }
 
@@ -110,8 +111,14 @@ h1, h2, h3, h4, h5, h6, p, button, a {
 }
 
 @media screen and (max-width: 1024px) {
-    .content, .box-row {
+    .content {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .content::before {
+        transform: rotate(-32deg);
+        width: 150vw;
+        top: -900px;
+        left: -300px;
     }
     .box-row {
         grid-template-columns: repeat(2, 1fr);
@@ -135,3 +142,4 @@ h1, h2, h3, h4, h5, h6, p, button, a {
         max-width: 100%;
     }
 }
+

@@ -1,3 +1,7 @@
+h1, h2, h3, h4, h5, h6, p, button, a {
+    font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -8,10 +12,10 @@
 }
 
 .navbar button {
-    background-color:purple;
+    background-color:#a920ff;
     color: white;
     padding: 10px 25px;
-    border-radius: 15px;
+    border-radius: 25px;
     border: 0;
 }
 
@@ -19,6 +23,29 @@
     background-color: transparent;
     color: white;
     padding: 10px 25px;
-    border-radius: 15px;
+    border-radius: 25px;
+    border: 1px solid white;
+}
+
+.content {
+    background-color: #a920ff;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: white;
+}
+
+.content h1 {
+    font-weight: bold;
+}
+
+.content h4 {
+    margin: 20px 0;
+}
+
+.content button {
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
     border: 1px solid white;
 }

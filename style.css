@@ -1,3 +1,24 @@
-h1 {
-    color:aqua;
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+
+.navbar button {
+    background-color:purple;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 0;
+}
+
+.navbar .transparent-btn{
+    background-color: transparent;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 15px;
+    border: 1px solid white;
 }

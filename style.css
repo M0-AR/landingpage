@@ -21,8 +21,18 @@ h1, h2, h3, h4, h5, h6, p, button, a {
     padding: 10px 25px;
     border-radius: 25px;
     border: 1px solid white;
+    font-size: 14px;
 }
 
+.navbar a {
+    background-color: linear-gradient(90deg, #a920ff 0%, rgba(2,23,78,1) 100%);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 14px;
+}
 .navbar .transparent-btn{
     background-color: transparent;
     color: white;
@@ -74,10 +84,7 @@ h1, h2, h3, h4, h5, h6, p, button, a {
     display: block;
     margin: 25px auto 0;
     max-width: 100%;
-<<<<<<< HEAD
     border-radius: 15px;
-=======
->>>>>>> 012e7ce9179cc7c790a926af890e346944455d23
     height: auto;
 }
 
@@ -114,7 +121,6 @@ h1, h2, h3, h4, h5, h6, p, button, a {
 }
 
 @media screen and (max-width: 1024px) {
-<<<<<<< HEAD
     .content {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -124,11 +130,9 @@ h1, h2, h3, h4, h5, h6, p, button, a {
         top: -900px;
         left: -300px;
     }
-=======
     .content, .box-row {
         grid-template-columns: repeat(2, 1fr);
     }
->>>>>>> 012e7ce9179cc7c790a926af890e346944455d23
     .box-row {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -150,9 +154,7 @@ h1, h2, h3, h4, h5, h6, p, button, a {
         grid-column: 1 / 2;
         max-width: 100%;
     }
-<<<<<<< HEAD
+    .navbar .transparent-btn {
+        display: none;
+    }
 }
-
-=======
-}
->>>>>>> 012e7ce9179cc7c790a926af890e346944455d23
